@@ -1,0 +1,30 @@
+[1.291s] Invoking command in '/home/eth/ros2_ws/src/opencv_tools': PYTHONPATH=/home/eth/ros2_ws/build/opencv_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eth/ros2_ws/install/opencv_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/opencv_tools build --build-base /home/eth/ros2_ws/build/opencv_tools/build install --record /home/eth/ros2_ws/build/opencv_tools/install.log --single-version-externally-managed install_data
+[1.564s] running egg_info
+[1.582s] writing ../../build/opencv_tools/opencv_tools.egg-info/PKG-INFO
+[1.582s] writing dependency_links to ../../build/opencv_tools/opencv_tools.egg-info/dependency_links.txt
+[1.582s] writing entry points to ../../build/opencv_tools/opencv_tools.egg-info/entry_points.txt
+[1.583s] writing requirements to ../../build/opencv_tools/opencv_tools.egg-info/requires.txt
+[1.583s] writing top-level names to ../../build/opencv_tools/opencv_tools.egg-info/top_level.txt
+[1.620s] reading manifest file '../../build/opencv_tools/opencv_tools.egg-info/SOURCES.txt'
+[1.621s] writing manifest file '../../build/opencv_tools/opencv_tools.egg-info/SOURCES.txt'
+[1.621s] running build
+[1.621s] running build_py
+[1.621s] copying opencv_tools/aruco_marker_pose_estimation_tf.py -> /home/eth/ros2_ws/build/opencv_tools/build/lib/opencv_tools
+[1.621s] copying opencv_tools/basic_image_publisher.py -> /home/eth/ros2_ws/build/opencv_tools/build/lib/opencv_tools
+[1.622s] copying opencv_tools/basic_image_subscriber.py -> /home/eth/ros2_ws/build/opencv_tools/build/lib/opencv_tools
+[1.622s] running install
+[1.632s] running install_lib
+[1.650s] copying /home/eth/ros2_ws/build/opencv_tools/build/lib/opencv_tools/aruco_marker_pose_estimation_tf.py -> /home/eth/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools
+[1.651s] byte-compiling /home/eth/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools/aruco_marker_pose_estimation_tf.py to aruco_marker_pose_estimation_tf.cpython-310.pyc
+[1.652s] running install_data
+[1.652s] copying resource/opencv_tools -> /home/eth/ros2_ws/install/opencv_tools/share/ament_index/resource_index/packages
+[1.652s] copying package.xml -> /home/eth/ros2_ws/install/opencv_tools/share/opencv_tools
+[1.653s] running install_egg_info
+[1.674s] removing '/home/eth/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools-0.0.0-py3.10.egg-info' (and everything under it)
+[1.675s] Copying ../../build/opencv_tools/opencv_tools.egg-info to /home/eth/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools-0.0.0-py3.10.egg-info
+[1.676s] running install_scripts
+[1.833s] Installing aruco_marker_pose_estimator_tf script to /home/eth/ros2_ws/install/opencv_tools/lib/opencv_tools
+[1.833s] Installing img_publisher script to /home/eth/ros2_ws/install/opencv_tools/lib/opencv_tools
+[1.833s] Installing img_subscriber script to /home/eth/ros2_ws/install/opencv_tools/lib/opencv_tools
+[1.833s] writing list of installed files to '/home/eth/ros2_ws/build/opencv_tools/install.log'
+[1.861s] Invoked command in '/home/eth/ros2_ws/src/opencv_tools' returned '0': PYTHONPATH=/home/eth/ros2_ws/build/opencv_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eth/ros2_ws/install/opencv_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/opencv_tools build --build-base /home/eth/ros2_ws/build/opencv_tools/build install --record /home/eth/ros2_ws/build/opencv_tools/install.log --single-version-externally-managed install_data

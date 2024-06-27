@@ -1,0 +1,4 @@
+source;share/publish_tf/local_setup.bash
+source;share/publish_tf/local_setup.dsv
+source;share/publish_tf/local_setup.sh
+source;share/publish_tf/local_setup.zsh

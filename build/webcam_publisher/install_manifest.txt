@@ -1,0 +1,17 @@
+/home/eth/ros2_ws/install/webcam_publisher/lib/webcam_publisher/webcam_publisher_node.py
+/home/eth/ros2_ws/install/webcam_publisher/share/ament_index/resource_index/package_run_dependencies/webcam_publisher
+/home/eth/ros2_ws/install/webcam_publisher/share/ament_index/resource_index/parent_prefix_path/webcam_publisher
+/home/eth/ros2_ws/install/webcam_publisher/share/webcam_publisher/environment/ament_prefix_path.sh
+/home/eth/ros2_ws/install/webcam_publisher/share/webcam_publisher/environment/ament_prefix_path.dsv
+/home/eth/ros2_ws/install/webcam_publisher/share/webcam_publisher/environment/path.sh
+/home/eth/ros2_ws/install/webcam_publisher/share/webcam_publisher/environment/path.dsv
+/home/eth/ros2_ws/install/webcam_publisher/share/webcam_publisher/local_setup.bash
+/home/eth/ros2_ws/install/webcam_publisher/share/webcam_publisher/local_setup.sh
+/home/eth/ros2_ws/install/webcam_publisher/share/webcam_publisher/local_setup.zsh
+/home/eth/ros2_ws/install/webcam_publisher/share/webcam_publisher/local_setup.dsv
+/home/eth/ros2_ws/install/webcam_publisher/share/webcam_publisher/package.dsv
+/home/eth/ros2_ws/install/webcam_publisher/share/ament_index/resource_index/packages/webcam_publisher
+/home/eth/ros2_ws/install/webcam_publisher/share/webcam_publisher/cmake/ament_cmake_export_dependencies-extras.cmake
+/home/eth/ros2_ws/install/webcam_publisher/share/webcam_publisher/cmake/webcam_publisherConfig.cmake
+/home/eth/ros2_ws/install/webcam_publisher/share/webcam_publisher/cmake/webcam_publisherConfig-version.cmake
+/home/eth/ros2_ws/install/webcam_publisher/share/webcam_publisher/package.xml

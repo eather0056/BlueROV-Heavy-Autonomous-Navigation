@@ -1,0 +1,3 @@
+[console_scripts]
+listenerMIR = autonomous_rov.listenerMIR:main
+video = autonomous_rov.video:main

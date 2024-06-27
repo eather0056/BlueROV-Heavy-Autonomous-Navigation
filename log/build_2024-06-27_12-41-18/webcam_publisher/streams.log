@@ -1,0 +1,23 @@
+[0.499s] Invoking command in '/home/eth/ros2_ws/build/webcam_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eth/ros2_ws/install/autonomous_rov:/home/eth/MIR_Project_2024/glassy_challenge_ws/install/glassy_challenge:/home/eth/bookros2_ws/install/launch_pal:/home/eth/bookros2_ws/install/br2_vff_avoidance_py:/home/eth/bookros2_ws/install/br2_fsm_bumpgo_py_ex_1:/home/eth/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --build /home/eth/ros2_ws/build/webcam_publisher -- -j8 -l8
+[0.761s] Invoked command in '/home/eth/ros2_ws/build/webcam_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eth/ros2_ws/install/autonomous_rov:/home/eth/MIR_Project_2024/glassy_challenge_ws/install/glassy_challenge:/home/eth/bookros2_ws/install/launch_pal:/home/eth/bookros2_ws/install/br2_vff_avoidance_py:/home/eth/bookros2_ws/install/br2_fsm_bumpgo_py_ex_1:/home/eth/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --build /home/eth/ros2_ws/build/webcam_publisher -- -j8 -l8
+[0.986s] Invoking command in '/home/eth/ros2_ws/build/webcam_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eth/ros2_ws/install/autonomous_rov:/home/eth/MIR_Project_2024/glassy_challenge_ws/install/glassy_challenge:/home/eth/bookros2_ws/install/launch_pal:/home/eth/bookros2_ws/install/br2_vff_avoidance_py:/home/eth/bookros2_ws/install/br2_fsm_bumpgo_py_ex_1:/home/eth/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --install /home/eth/ros2_ws/build/webcam_publisher
+[1.040s] -- Install configuration: ""
+[1.042s] -- Up-to-date: /home/eth/ros2_ws/install/webcam_publisher/lib/webcam_publisher/webcam_publisher_node.py
+[1.044s] -- Up-to-date: /home/eth/ros2_ws/install/webcam_publisher/share/webcam_publisher/launch
+[1.047s] -- Up-to-date: /home/eth/ros2_ws/install/webcam_publisher/share/ament_index/resource_index/package_run_dependencies/webcam_publisher
+[1.047s] -- Up-to-date: /home/eth/ros2_ws/install/webcam_publisher/share/ament_index/resource_index/parent_prefix_path/webcam_publisher
+[1.047s] -- Up-to-date: /home/eth/ros2_ws/install/webcam_publisher/share/webcam_publisher/environment/ament_prefix_path.sh
+[1.048s] -- Up-to-date: /home/eth/ros2_ws/install/webcam_publisher/share/webcam_publisher/environment/ament_prefix_path.dsv
+[1.050s] -- Up-to-date: /home/eth/ros2_ws/install/webcam_publisher/share/webcam_publisher/environment/path.sh
+[1.051s] -- Up-to-date: /home/eth/ros2_ws/install/webcam_publisher/share/webcam_publisher/environment/path.dsv
+[1.052s] -- Up-to-date: /home/eth/ros2_ws/install/webcam_publisher/share/webcam_publisher/local_setup.bash
+[1.053s] -- Up-to-date: /home/eth/ros2_ws/install/webcam_publisher/share/webcam_publisher/local_setup.sh
+[1.054s] -- Up-to-date: /home/eth/ros2_ws/install/webcam_publisher/share/webcam_publisher/local_setup.zsh
+[1.055s] -- Up-to-date: /home/eth/ros2_ws/install/webcam_publisher/share/webcam_publisher/local_setup.dsv
+[1.056s] -- Installing: /home/eth/ros2_ws/install/webcam_publisher/share/webcam_publisher/package.dsv
+[1.057s] -- Up-to-date: /home/eth/ros2_ws/install/webcam_publisher/share/ament_index/resource_index/packages/webcam_publisher
+[1.058s] -- Up-to-date: /home/eth/ros2_ws/install/webcam_publisher/share/webcam_publisher/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.058s] -- Up-to-date: /home/eth/ros2_ws/install/webcam_publisher/share/webcam_publisher/cmake/webcam_publisherConfig.cmake
+[1.059s] -- Up-to-date: /home/eth/ros2_ws/install/webcam_publisher/share/webcam_publisher/cmake/webcam_publisherConfig-version.cmake
+[1.060s] -- Up-to-date: /home/eth/ros2_ws/install/webcam_publisher/share/webcam_publisher/package.xml
+[1.067s] Invoked command in '/home/eth/ros2_ws/build/webcam_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eth/ros2_ws/install/autonomous_rov:/home/eth/MIR_Project_2024/glassy_challenge_ws/install/glassy_challenge:/home/eth/bookros2_ws/install/launch_pal:/home/eth/bookros2_ws/install/br2_vff_avoidance_py:/home/eth/bookros2_ws/install/br2_fsm_bumpgo_py_ex_1:/home/eth/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --install /home/eth/ros2_ws/build/webcam_publisher
