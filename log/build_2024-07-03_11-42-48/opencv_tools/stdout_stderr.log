@@ -1,0 +1,33 @@
+running develop
+/home/eth/.local/lib/python3.10/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` and ``easy_install``.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://github.com/pypa/setuptools/issues/917 for details.
+        ********************************************************************************
+
+!!
+  easy_install.initialize_options(self)
+running egg_info
+writing opencv_tools.egg-info/PKG-INFO
+writing dependency_links to opencv_tools.egg-info/dependency_links.txt
+writing entry points to opencv_tools.egg-info/entry_points.txt
+writing requirements to opencv_tools.egg-info/requires.txt
+writing top-level names to opencv_tools.egg-info/top_level.txt
+reading manifest file 'opencv_tools.egg-info/SOURCES.txt'
+writing manifest file 'opencv_tools.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/eth/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv-tools.egg-link (link to .)
+Installing aruco_marker_pose_estimator_tf script to /home/eth/ros2_ws/install/opencv_tools/lib/opencv_tools
+Installing img_publisher script to /home/eth/ros2_ws/install/opencv_tools/lib/opencv_tools
+Installing img_subscriber script to /home/eth/ros2_ws/install/opencv_tools/lib/opencv_tools
+Installing robot_goal_pos_extimation script to /home/eth/ros2_ws/install/opencv_tools/lib/opencv_tools
+
+Installed /home/eth/ros2_ws/build/opencv_tools
+running symlink_data
+symbolically linking /home/eth/ros2_ws/build/opencv_tools/resource/opencv_tools -> /home/eth/ros2_ws/install/opencv_tools/share/ament_index/resource_index/packages
+symbolically linking /home/eth/ros2_ws/build/opencv_tools/package.xml -> /home/eth/ros2_ws/install/opencv_tools/share/opencv_tools

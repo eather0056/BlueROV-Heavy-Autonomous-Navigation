@@ -1,0 +1,31 @@
+[0.279s] Invoking command in '/home/eth/ros2_ws/build/kobuki_ros_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eth/ros2_ws/install/rov_practical:/home/eth/ros2_ws/install/opencv_tools:/home/eth/ros2_ws/install/autonomous_rov:/home/eth/bookros2_ws/install/launch_pal:/home/eth/bookros2_ws/install/br2_vff_avoidance_py:/home/eth/bookros2_ws/install/br2_fsm_bumpgo_py_ex_1:/home/eth/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake /home/eth/ros2_ws/src/kobuki_ros_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/eth/ros2_ws/install/kobuki_ros_interfaces
+[0.573s] -- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)
+[0.574s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.575s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.575s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.576s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.576s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.576s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.638s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.651s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[1.201s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.831s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.105s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.163s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.216s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.216s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.216s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.426s] -- Configuring done
+[2.679s] -- Generating done
+[2.686s] -- Build files have been written to: /home/eth/ros2_ws/build/kobuki_ros_interfaces
+[2.699s] Invoked command in '/home/eth/ros2_ws/build/kobuki_ros_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eth/ros2_ws/install/rov_practical:/home/eth/ros2_ws/install/opencv_tools:/home/eth/ros2_ws/install/autonomous_rov:/home/eth/bookros2_ws/install/launch_pal:/home/eth/bookros2_ws/install/br2_vff_avoidance_py:/home/eth/bookros2_ws/install/br2_fsm_bumpgo_py_ex_1:/home/eth/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake /home/eth/ros2_ws/src/kobuki_ros_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/eth/ros2_ws/install/kobuki_ros_interfaces
+[2.702s] Invoking command in '/home/eth/ros2_ws/build/kobuki_ros_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eth/ros2_ws/install/rov_practical:/home/eth/ros2_ws/install/opencv_tools:/home/eth/ros2_ws/install/autonomous_rov:/home/eth/bookros2_ws/install/launch_pal:/home/eth/bookros2_ws/install/br2_vff_avoidance_py:/home/eth/bookros2_ws/install/br2_fsm_bumpgo_py_ex_1:/home/eth/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --build /home/eth/ros2_ws/build/kobuki_ros_interfaces -- -j8 -l8
+[2.788s] [35m[1mConsolidate compiler generated dependencies of target kobuki_ros_interfaces__rosidl_generator_c[0m
+[2.798s] failed to create symbolic link '/home/eth/ros2_ws/build/kobuki_ros_interfaces/ament_cmake_python/kobuki_ros_interfaces/kobuki_ros_interfaces' because existing path cannot be removed: Is a directory
+[2.800s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_kobuki_ros_interfaces.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_kobuki_ros_interfaces] Error 1
+[2.800s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_kobuki_ros_interfaces.dir/all] Error 2
+[2.800s] gmake[1]: *** Waiting for unfinished jobs....
+[2.821s] [ 12%] Built target kobuki_ros_interfaces__rosidl_generator_c
+[2.840s] [ 12%] Built target kobuki_ros_interfaces__cpp
+[2.869s] gmake: *** [Makefile:146: all] Error 2
+[2.873s] Invoked command in '/home/eth/ros2_ws/build/kobuki_ros_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eth/ros2_ws/install/rov_practical:/home/eth/ros2_ws/install/opencv_tools:/home/eth/ros2_ws/install/autonomous_rov:/home/eth/bookros2_ws/install/launch_pal:/home/eth/bookros2_ws/install/br2_vff_avoidance_py:/home/eth/bookros2_ws/install/br2_fsm_bumpgo_py_ex_1:/home/eth/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --build /home/eth/ros2_ws/build/kobuki_ros_interfaces -- -j8 -l8

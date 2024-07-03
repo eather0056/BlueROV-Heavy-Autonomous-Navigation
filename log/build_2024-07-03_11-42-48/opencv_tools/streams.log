@@ -1,0 +1,35 @@
+[1.671s] Invoking command in '/home/eth/ros2_ws/build/opencv_tools': PYTHONPATH=/home/eth/ros2_ws/build/opencv_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eth/ros2_ws/install/opencv_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/eth/ros2_ws/build/opencv_tools/build --no-deps symlink_data --force
+[2.279s] running develop
+[2.282s] /home/eth/.local/lib/python3.10/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[2.282s] !!
+[2.282s] 
+[2.282s]         ********************************************************************************
+[2.282s]         Please avoid running ``setup.py`` and ``easy_install``.
+[2.282s]         Instead, use pypa/build, pypa/installer or other
+[2.282s]         standards-based tools.
+[2.283s] 
+[2.283s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[2.283s]         ********************************************************************************
+[2.283s] 
+[2.283s] !!
+[2.283s]   easy_install.initialize_options(self)
+[2.799s] running egg_info
+[2.858s] writing opencv_tools.egg-info/PKG-INFO
+[2.858s] writing dependency_links to opencv_tools.egg-info/dependency_links.txt
+[2.858s] writing entry points to opencv_tools.egg-info/entry_points.txt
+[2.858s] writing requirements to opencv_tools.egg-info/requires.txt
+[2.858s] writing top-level names to opencv_tools.egg-info/top_level.txt
+[2.918s] reading manifest file 'opencv_tools.egg-info/SOURCES.txt'
+[2.920s] writing manifest file 'opencv_tools.egg-info/SOURCES.txt'
+[2.959s] running build_ext
+[2.959s] Creating /home/eth/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv-tools.egg-link (link to .)
+[2.960s] Installing aruco_marker_pose_estimator_tf script to /home/eth/ros2_ws/install/opencv_tools/lib/opencv_tools
+[2.960s] Installing img_publisher script to /home/eth/ros2_ws/install/opencv_tools/lib/opencv_tools
+[2.961s] Installing img_subscriber script to /home/eth/ros2_ws/install/opencv_tools/lib/opencv_tools
+[2.961s] Installing robot_goal_pos_extimation script to /home/eth/ros2_ws/install/opencv_tools/lib/opencv_tools
+[2.962s] 
+[2.962s] Installed /home/eth/ros2_ws/build/opencv_tools
+[2.962s] running symlink_data
+[2.962s] symbolically linking /home/eth/ros2_ws/build/opencv_tools/resource/opencv_tools -> /home/eth/ros2_ws/install/opencv_tools/share/ament_index/resource_index/packages
+[2.962s] symbolically linking /home/eth/ros2_ws/build/opencv_tools/package.xml -> /home/eth/ros2_ws/install/opencv_tools/share/opencv_tools
+[3.026s] Invoked command in '/home/eth/ros2_ws/build/opencv_tools' returned '0': PYTHONPATH=/home/eth/ros2_ws/build/opencv_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eth/ros2_ws/install/opencv_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/eth/ros2_ws/build/opencv_tools/build --no-deps symlink_data --force

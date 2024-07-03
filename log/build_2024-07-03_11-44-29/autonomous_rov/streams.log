@@ -1,0 +1,40 @@
+[1.854s] Invoking command in '/home/eth/ros2_ws/build/autonomous_rov': PYTHONPATH=/home/eth/ros2_ws/build/autonomous_rov/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eth/ros2_ws/install/autonomous_rov/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/eth/ros2_ws/build/autonomous_rov/build --no-deps symlink_data --force
+[2.536s] /home/eth/.local/lib/python3.10/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[2.536s] !!
+[2.536s] 
+[2.537s]         ********************************************************************************
+[2.537s]         Please avoid running ``setup.py`` and ``easy_install``.
+[2.537s]         Instead, use pypa/build, pypa/installer or other
+[2.537s]         standards-based tools.
+[2.541s] 
+[2.541s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[2.541s]         ********************************************************************************
+[2.541s] 
+[2.541s] !!
+[2.542s]   easy_install.initialize_options(self)
+[2.542s] running develop
+[3.056s] running egg_info
+[3.091s] writing autonomous_rov.egg-info/PKG-INFO
+[3.092s] writing dependency_links to autonomous_rov.egg-info/dependency_links.txt
+[3.092s] writing entry points to autonomous_rov.egg-info/entry_points.txt
+[3.092s] writing requirements to autonomous_rov.egg-info/requires.txt
+[3.093s] writing top-level names to autonomous_rov.egg-info/top_level.txt
+[3.169s] reading manifest file 'autonomous_rov.egg-info/SOURCES.txt'
+[3.171s] writing manifest file 'autonomous_rov.egg-info/SOURCES.txt'
+[3.211s] running build_ext
+[3.211s] Creating /home/eth/ros2_ws/install/autonomous_rov/lib/python3.10/site-packages/autonomous-rov.egg-link (link to .)
+[3.212s] Installing listenerMIR script to /home/eth/ros2_ws/install/autonomous_rov/lib/autonomous_rov
+[3.212s] Installing video script to /home/eth/ros2_ws/install/autonomous_rov/lib/autonomous_rov
+[3.212s] 
+[3.212s] Installed /home/eth/ros2_ws/build/autonomous_rov
+[3.212s] running symlink_data
+[3.213s] symbolically linking /home/eth/ros2_ws/build/autonomous_rov/resource/autonomous_rov -> /home/eth/ros2_ws/install/autonomous_rov/share/ament_index/resource_index/packages
+[3.213s] symbolically linking /home/eth/ros2_ws/build/autonomous_rov/package.xml -> /home/eth/ros2_ws/install/autonomous_rov/share/autonomous_rov
+[3.213s] symbolically linking /home/eth/ros2_ws/build/autonomous_rov/launch/run_autonomous_rov.launch.py -> /home/eth/ros2_ws/install/autonomous_rov/share/autonomous_rov/launch
+[3.213s] symbolically linking /home/eth/ros2_ws/build/autonomous_rov/launch/video.launch.py -> /home/eth/ros2_ws/install/autonomous_rov/share/autonomous_rov/launch
+[3.213s] symbolically linking /home/eth/ros2_ws/build/autonomous_rov/launch/run_teleop.launch -> /home/eth/ros2_ws/install/autonomous_rov/share/autonomous_rov/launch
+[3.214s] symbolically linking /home/eth/ros2_ws/build/autonomous_rov/launch/run_mavros_only.launch -> /home/eth/ros2_ws/install/autonomous_rov/share/autonomous_rov/launch
+[3.214s] symbolically linking /home/eth/ros2_ws/build/autonomous_rov/launch/run_mavros_teleop.launch -> /home/eth/ros2_ws/install/autonomous_rov/share/autonomous_rov/launch
+[3.214s] symbolically linking /home/eth/ros2_ws/build/autonomous_rov/launch/run_all.launch -> /home/eth/ros2_ws/install/autonomous_rov/share/autonomous_rov/launch
+[3.214s] symbolically linking /home/eth/ros2_ws/build/autonomous_rov/config/xbox.config.yaml -> /home/eth/ros2_ws/install/autonomous_rov/share/autonomous_rov/config
+[3.273s] Invoked command in '/home/eth/ros2_ws/build/autonomous_rov' returned '0': PYTHONPATH=/home/eth/ros2_ws/build/autonomous_rov/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eth/ros2_ws/install/autonomous_rov/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/eth/ros2_ws/build/autonomous_rov/build --no-deps symlink_data --force

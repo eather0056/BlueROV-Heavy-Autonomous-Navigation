@@ -1,0 +1,66 @@
+[0.282s] Invoking command in '/home/eth/ros2_ws/build/kobuki_ros_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eth/ros2_ws/install/rov_practical:/home/eth/ros2_ws/install/opencv_tools:/home/eth/ros2_ws/install/autonomous_rov:/home/eth/bookros2_ws/install/launch_pal:/home/eth/bookros2_ws/install/br2_vff_avoidance_py:/home/eth/bookros2_ws/install/br2_fsm_bumpgo_py_ex_1:/home/eth/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --build /home/eth/ros2_ws/build/kobuki_ros_interfaces -- -j8 -l8
+[0.743s] [  0%] Built target kobuki_ros_interfaces__cpp
+[0.744s] [ 12%] Built target kobuki_ros_interfaces__rosidl_generator_c
+[0.744s] [ 12%] Built target ament_cmake_python_copy_kobuki_ros_interfaces
+[0.744s] [ 24%] Built target kobuki_ros_interfaces__rosidl_typesupport_cpp
+[0.744s] [ 36%] Built target kobuki_ros_interfaces__rosidl_typesupport_introspection_c
+[0.744s] [ 48%] Built target kobuki_ros_interfaces__rosidl_typesupport_c
+[0.745s] [ 60%] Built target kobuki_ros_interfaces__rosidl_typesupport_introspection_cpp
+[0.745s] [ 83%] Built target kobuki_ros_interfaces__rosidl_typesupport_fastrtps_c
+[0.746s] [ 84%] Built target kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.746s] [ 84%] Built target kobuki_ros_interfaces
+[0.746s] [ 85%] Built target kobuki_ros_interfaces__py
+[0.746s] [ 85%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_bumper_event_s.c.o[0m
+[0.746s] [ 86%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_external_power_s.c.o[0m
+[0.747s] [ 85%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_digital_output_s.c.o[0m
+[0.747s] [ 85%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_power_system_event_s.c.o[0m
+[0.747s] [ 87%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_led_s.c.o[0m
+[0.747s] [ 88%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_cliff_event_s.c.o[0m
+[0.747s] [ 89%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_sensor_state_s.c.o[0m
+[0.747s] [01m[K/home/eth/ros2_ws/build/kobuki_ros_interfaces/rosidl_generator_py/kobuki_ros_interfaces/msg/_bumper_event_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: No such file or directory
+[0.747s]    11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+[0.747s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.748s] compilation terminated.
+[0.748s] gmake[2]: *** [CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/build.make:76: CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_bumper_event_s.c.o] Error 1
+[0.748s] gmake[2]: *** Waiting for unfinished jobs....
+[0.748s] [01m[K/home/eth/ros2_ws/build/kobuki_ros_interfaces/rosidl_generator_py/kobuki_ros_interfaces/msg/_power_system_event_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: No such file or directory
+[0.748s]    11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+[0.748s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.748s] compilation terminated.
+[0.748s] gmake[2]: *** [CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/build.make:146: CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_power_system_event_s.c.o] Error 1
+[0.749s] [01m[K/home/eth/ros2_ws/build/kobuki_ros_interfaces/rosidl_generator_py/kobuki_ros_interfaces/msg/_sensor_state_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: No such file or directory
+[0.749s]    11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+[0.749s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.749s] compilation terminated.
+[0.749s] gmake[2]: *** [CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/build.make:160: CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_sensor_state_s.c.o] Error 1
+[0.749s] [01m[K/home/eth/ros2_ws/build/kobuki_ros_interfaces/rosidl_generator_py/kobuki_ros_interfaces/msg/_external_power_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: No such file or directory
+[0.749s]    11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+[0.749s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.749s] compilation terminated.
+[0.750s] gmake[2]: *** [CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/build.make:118: CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_external_power_s.c.o] Error 1
+[0.750s] [01m[K/home/eth/ros2_ws/build/kobuki_ros_interfaces/rosidl_generator_py/kobuki_ros_interfaces/msg/_digital_output_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: No such file or directory
+[0.750s]    11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+[0.750s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.750s] compilation terminated.
+[0.750s] gmake[2]: *** [CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/build.make:104: CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_digital_output_s.c.o] Error 1
+[0.750s] [01m[K/home/eth/ros2_ws/build/kobuki_ros_interfaces/rosidl_generator_py/kobuki_ros_interfaces/msg/_cliff_event_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: No such file or directory
+[0.750s]    11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+[0.750s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.751s] compilation terminated.
+[0.751s] gmake[2]: *** [CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/build.make:90: CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_cliff_event_s.c.o] Error 1
+[0.751s] [01m[K/home/eth/ros2_ws/build/kobuki_ros_interfaces/rosidl_generator_py/kobuki_ros_interfaces/msg/_led_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: No such file or directory
+[0.751s]    11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+[0.751s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.751s] compilation terminated.
+[0.751s] gmake[2]: *** [CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/build.make:132: CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_led_s.c.o] Error 1
+[0.751s] gmake[1]: *** [CMakeFiles/Makefile2:475: CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/all] Error 2
+[0.751s] gmake[1]: *** Waiting for unfinished jobs....
+[0.759s] running egg_info
+[0.777s] writing kobuki_ros_interfaces.egg-info/PKG-INFO
+[0.778s] writing dependency_links to kobuki_ros_interfaces.egg-info/dependency_links.txt
+[0.778s] writing top-level names to kobuki_ros_interfaces.egg-info/top_level.txt
+[0.840s] reading manifest file 'kobuki_ros_interfaces.egg-info/SOURCES.txt'
+[0.841s] writing manifest file 'kobuki_ros_interfaces.egg-info/SOURCES.txt'
+[0.869s] [ 89%] Built target ament_cmake_python_build_kobuki_ros_interfaces_egg
+[0.870s] gmake: *** [Makefile:146: all] Error 2
+[1.017s] Invoked command in '/home/eth/ros2_ws/build/kobuki_ros_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eth/ros2_ws/install/rov_practical:/home/eth/ros2_ws/install/opencv_tools:/home/eth/ros2_ws/install/autonomous_rov:/home/eth/bookros2_ws/install/launch_pal:/home/eth/bookros2_ws/install/br2_vff_avoidance_py:/home/eth/bookros2_ws/install/br2_fsm_bumpgo_py_ex_1:/home/eth/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --build /home/eth/ros2_ws/build/kobuki_ros_interfaces -- -j8 -l8

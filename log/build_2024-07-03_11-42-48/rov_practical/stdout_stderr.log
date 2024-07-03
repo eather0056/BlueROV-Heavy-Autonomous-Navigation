@@ -1,0 +1,31 @@
+running develop
+/home/eth/.local/lib/python3.10/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` and ``easy_install``.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://github.com/pypa/setuptools/issues/917 for details.
+        ********************************************************************************
+
+!!
+  easy_install.initialize_options(self)
+running egg_info
+writing rov_practical.egg-info/PKG-INFO
+writing dependency_links to rov_practical.egg-info/dependency_links.txt
+writing entry points to rov_practical.egg-info/entry_points.txt
+writing requirements to rov_practical.egg-info/requires.txt
+writing top-level names to rov_practical.egg-info/top_level.txt
+reading manifest file 'rov_practical.egg-info/SOURCES.txt'
+writing manifest file 'rov_practical.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/eth/ros2_ws/install/rov_practical/lib/python3.10/site-packages/rov-practical.egg-link (link to .)
+Installing dddqn script to /home/eth/ros2_ws/install/rov_practical/lib/rov_practical
+Installing uw script to /home/eth/ros2_ws/install/rov_practical/lib/rov_practical
+
+Installed /home/eth/ros2_ws/build/rov_practical
+running symlink_data
+symbolically linking /home/eth/ros2_ws/build/rov_practical/resource/rov_practical -> /home/eth/ros2_ws/install/rov_practical/share/ament_index/resource_index/packages
+symbolically linking /home/eth/ros2_ws/build/rov_practical/package.xml -> /home/eth/ros2_ws/install/rov_practical/share/rov_practical

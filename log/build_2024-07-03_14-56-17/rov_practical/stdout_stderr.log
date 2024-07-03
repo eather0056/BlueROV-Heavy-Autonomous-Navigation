@@ -1,0 +1,33 @@
+running egg_info
+writing ../../build/rov_practical/rov_practical.egg-info/PKG-INFO
+writing dependency_links to ../../build/rov_practical/rov_practical.egg-info/dependency_links.txt
+writing entry points to ../../build/rov_practical/rov_practical.egg-info/entry_points.txt
+writing requirements to ../../build/rov_practical/rov_practical.egg-info/requires.txt
+writing top-level names to ../../build/rov_practical/rov_practical.egg-info/top_level.txt
+reading manifest file '../../build/rov_practical/rov_practical.egg-info/SOURCES.txt'
+writing manifest file '../../build/rov_practical/rov_practical.egg-info/SOURCES.txt'
+running build
+running build_py
+copying rov_practical/__init__.py -> /home/eth/ros2_ws/build/rov_practical/build/lib/rov_practical
+copying rov_practical/tftext.py -> /home/eth/ros2_ws/build/rov_practical/build/lib/rov_practical
+copying rov_practical/unw.py -> /home/eth/ros2_ws/build/rov_practical/build/lib/rov_practical
+copying rov_practical/DDDQN.py -> /home/eth/ros2_ws/build/rov_practical/build/lib/rov_practical
+copying rov_practical/gazebo_world.py -> /home/eth/ros2_ws/build/rov_practical/build/lib/rov_practical
+copying rov_practical/models/__init__.py -> /home/eth/ros2_ws/build/rov_practical/build/lib/rov_practical/models
+copying rov_practical/models/mlp_policy.py -> /home/eth/ros2_ws/build/rov_practical/build/lib/rov_practical/models
+copying rov_practical/models/mlp_critic.py -> /home/eth/ros2_ws/build/rov_practical/build/lib/rov_practical/models
+running install
+running install_lib
+copying /home/eth/ros2_ws/build/rov_practical/build/lib/rov_practical/gazebo_world.py -> /home/eth/ros2_ws/install/rov_practical/lib/python3.10/site-packages/rov_practical
+byte-compiling /home/eth/ros2_ws/install/rov_practical/lib/python3.10/site-packages/rov_practical/gazebo_world.py to gazebo_world.cpython-310.pyc
+running install_data
+copying resource/rov_practical -> /home/eth/ros2_ws/install/rov_practical/share/ament_index/resource_index/packages
+copying package.xml -> /home/eth/ros2_ws/install/rov_practical/share/rov_practical
+running install_egg_info
+removing '/home/eth/ros2_ws/install/rov_practical/lib/python3.10/site-packages/rov_practical-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/rov_practical/rov_practical.egg-info to /home/eth/ros2_ws/install/rov_practical/lib/python3.10/site-packages/rov_practical-0.0.0-py3.10.egg-info
+running install_scripts
+Installing dddqn script to /home/eth/ros2_ws/install/rov_practical/lib/rov_practical
+Installing tf script to /home/eth/ros2_ws/install/rov_practical/lib/rov_practical
+Installing uw script to /home/eth/ros2_ws/install/rov_practical/lib/rov_practical
+writing list of installed files to '/home/eth/ros2_ws/build/rov_practical/install.log'

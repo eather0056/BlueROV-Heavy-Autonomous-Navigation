@@ -1,0 +1,24 @@
+{
+  "package_name": "kobuki_ros_interfaces",
+  "non_idl_tuples": [
+    "/home/eth/ros2_ws/src/kobuki_ros_interfaces:msg/BumperEvent.msg",
+    "/home/eth/ros2_ws/src/kobuki_ros_interfaces:msg/CliffEvent.msg",
+    "/home/eth/ros2_ws/src/kobuki_ros_interfaces:msg/DigitalOutput.msg",
+    "/home/eth/ros2_ws/src/kobuki_ros_interfaces:msg/ExternalPower.msg",
+    "/home/eth/ros2_ws/src/kobuki_ros_interfaces:msg/Led.msg",
+    "/home/eth/ros2_ws/src/kobuki_ros_interfaces:msg/PowerSystemEvent.msg",
+    "/home/eth/ros2_ws/src/kobuki_ros_interfaces:msg/SensorState.msg",
+    "/home/eth/ros2_ws/src/kobuki_ros_interfaces:msg/VersionInfo.msg",
+    "/home/eth/ros2_ws/src/kobuki_ros_interfaces:msg/ControllerInfo.msg",
+    "/home/eth/ros2_ws/src/kobuki_ros_interfaces:msg/ButtonEvent.msg",
+    "/home/eth/ros2_ws/src/kobuki_ros_interfaces:msg/DigitalInputEvent.msg",
+    "/home/eth/ros2_ws/src/kobuki_ros_interfaces:msg/DockInfraRed.msg",
+    "/home/eth/ros2_ws/src/kobuki_ros_interfaces:msg/KeyboardInput.msg",
+    "/home/eth/ros2_ws/src/kobuki_ros_interfaces:msg/MotorPower.msg",
+    "/home/eth/ros2_ws/src/kobuki_ros_interfaces:msg/RobotStateEvent.msg",
+    "/home/eth/ros2_ws/src/kobuki_ros_interfaces:msg/Sound.msg",
+    "/home/eth/ros2_ws/src/kobuki_ros_interfaces:msg/ScanAngle.msg",
+    "/home/eth/ros2_ws/src/kobuki_ros_interfaces:msg/WheelDropEvent.msg",
+    "/home/eth/ros2_ws/src/kobuki_ros_interfaces:action/AutoDocking.action"
+  ]
+}

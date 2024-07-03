@@ -1,0 +1,54 @@
+[1.959s] Invoking command in '/home/eth/ros2_ws/build/opencv_tools': PYTHONPATH=/home/eth/ros2_ws/build/opencv_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eth/ros2_ws/install/opencv_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/eth/ros2_ws/build/opencv_tools/build
+[2.560s] running develop
+[2.560s] /home/eth/.local/lib/python3.10/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[2.560s] !!
+[2.560s] 
+[2.560s]         ********************************************************************************
+[2.561s]         Please avoid running ``setup.py`` and ``easy_install``.
+[2.561s]         Instead, use pypa/build, pypa/installer or other
+[2.561s]         standards-based tools.
+[2.561s] 
+[2.561s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[2.565s]         ********************************************************************************
+[2.565s] 
+[2.565s] !!
+[2.565s]   easy_install.initialize_options(self)
+[3.051s] Removing /home/eth/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv-tools.egg-link (link to .)
+[3.098s] Invoked command in '/home/eth/ros2_ws/build/opencv_tools' returned '0': PYTHONPATH=/home/eth/ros2_ws/build/opencv_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eth/ros2_ws/install/opencv_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/eth/ros2_ws/build/opencv_tools/build
+[3.101s] Invoking command in '/home/eth/ros2_ws/src/opencv_tools': PYTHONPATH=/home/eth/ros2_ws/build/opencv_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eth/ros2_ws/install/opencv_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/opencv_tools build --build-base /home/eth/ros2_ws/build/opencv_tools/build install --record /home/eth/ros2_ws/build/opencv_tools/install.log --single-version-externally-managed install_data --force
+[3.660s] running egg_info
+[3.695s] writing ../../build/opencv_tools/opencv_tools.egg-info/PKG-INFO
+[3.696s] writing dependency_links to ../../build/opencv_tools/opencv_tools.egg-info/dependency_links.txt
+[3.696s] writing entry points to ../../build/opencv_tools/opencv_tools.egg-info/entry_points.txt
+[3.696s] writing requirements to ../../build/opencv_tools/opencv_tools.egg-info/requires.txt
+[3.696s] writing top-level names to ../../build/opencv_tools/opencv_tools.egg-info/top_level.txt
+[3.769s] reading manifest file '../../build/opencv_tools/opencv_tools.egg-info/SOURCES.txt'
+[3.771s] writing manifest file '../../build/opencv_tools/opencv_tools.egg-info/SOURCES.txt'
+[3.771s] running build
+[3.771s] running build_py
+[3.771s] copying opencv_tools/aruco_marker_pose_estimation_tf.py -> /home/eth/ros2_ws/build/opencv_tools/build/lib/opencv_tools
+[3.771s] copying opencv_tools/basic_image_publisher.py -> /home/eth/ros2_ws/build/opencv_tools/build/lib/opencv_tools
+[3.772s] copying opencv_tools/robot_goal_pos_extimation.py -> /home/eth/ros2_ws/build/opencv_tools/build/lib/opencv_tools
+[3.772s] copying opencv_tools/basic_image_subscriber.py -> /home/eth/ros2_ws/build/opencv_tools/build/lib/opencv_tools
+[3.773s] running install
+[3.786s] running install_lib
+[3.822s] creating /home/eth/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools
+[3.823s] copying /home/eth/ros2_ws/build/opencv_tools/build/lib/opencv_tools/aruco_marker_pose_estimation_tf.py -> /home/eth/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools
+[3.823s] copying /home/eth/ros2_ws/build/opencv_tools/build/lib/opencv_tools/basic_image_publisher.py -> /home/eth/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools
+[3.823s] copying /home/eth/ros2_ws/build/opencv_tools/build/lib/opencv_tools/robot_goal_pos_extimation.py -> /home/eth/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools
+[3.823s] copying /home/eth/ros2_ws/build/opencv_tools/build/lib/opencv_tools/basic_image_subscriber.py -> /home/eth/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools
+[3.824s] byte-compiling /home/eth/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools/aruco_marker_pose_estimation_tf.py to aruco_marker_pose_estimation_tf.cpython-310.pyc
+[3.826s] byte-compiling /home/eth/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools/basic_image_publisher.py to basic_image_publisher.cpython-310.pyc
+[3.827s] byte-compiling /home/eth/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools/robot_goal_pos_extimation.py to robot_goal_pos_extimation.cpython-310.pyc
+[3.830s] byte-compiling /home/eth/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools/basic_image_subscriber.py to basic_image_subscriber.cpython-310.pyc
+[3.831s] running install_data
+[3.831s] copying resource/opencv_tools -> /home/eth/ros2_ws/install/opencv_tools/share/ament_index/resource_index/packages
+[3.831s] copying package.xml -> /home/eth/ros2_ws/install/opencv_tools/share/opencv_tools
+[3.831s] running install_egg_info
+[3.869s] Copying ../../build/opencv_tools/opencv_tools.egg-info to /home/eth/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools-0.0.0-py3.10.egg-info
+[3.871s] running install_scripts
+[4.199s] Installing aruco_marker_pose_estimator_tf script to /home/eth/ros2_ws/install/opencv_tools/lib/opencv_tools
+[4.199s] Installing img_publisher script to /home/eth/ros2_ws/install/opencv_tools/lib/opencv_tools
+[4.199s] Installing img_subscriber script to /home/eth/ros2_ws/install/opencv_tools/lib/opencv_tools
+[4.200s] Installing robot_goal_pos_extimation script to /home/eth/ros2_ws/install/opencv_tools/lib/opencv_tools
+[4.200s] writing list of installed files to '/home/eth/ros2_ws/build/opencv_tools/install.log'

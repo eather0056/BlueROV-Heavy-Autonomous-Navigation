@@ -1,0 +1,39 @@
+[01m[K/home/eth/ros2_ws/build/kobuki_ros_interfaces/rosidl_generator_py/kobuki_ros_interfaces/msg/_bumper_event_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: No such file or directory
+   11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/build.make:76: CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_bumper_event_s.c.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[K/home/eth/ros2_ws/build/kobuki_ros_interfaces/rosidl_generator_py/kobuki_ros_interfaces/msg/_external_power_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: No such file or directory
+   11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/build.make:118: CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_external_power_s.c.o] Error 1
+[01m[K/home/eth/ros2_ws/build/kobuki_ros_interfaces/rosidl_generator_py/kobuki_ros_interfaces/msg/_led_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: No such file or directory
+   11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+[01m[K/home/eth/ros2_ws/build/kobuki_ros_interfaces/rosidl_generator_py/kobuki_ros_interfaces/msg/_cliff_event_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: No such file or directory
+   11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/build.make:132: CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_led_s.c.o] Error 1
+gmake[2]: *** [CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/build.make:90: CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_cliff_event_s.c.o] Error 1
+[01m[K/home/eth/ros2_ws/build/kobuki_ros_interfaces/rosidl_generator_py/kobuki_ros_interfaces/msg/_digital_output_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: No such file or directory
+   11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/build.make:104: CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_digital_output_s.c.o] Error 1
+[01m[K/home/eth/ros2_ws/build/kobuki_ros_interfaces/rosidl_generator_py/kobuki_ros_interfaces/msg/_power_system_event_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: No such file or directory
+   11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/build.make:146: CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_power_system_event_s.c.o] Error 1
+[01m[K/home/eth/ros2_ws/build/kobuki_ros_interfaces/rosidl_generator_py/kobuki_ros_interfaces/msg/_sensor_state_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: No such file or directory
+   11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/build.make:160: CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_sensor_state_s.c.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:475: CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

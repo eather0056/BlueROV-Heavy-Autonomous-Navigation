@@ -1,0 +1,33 @@
+[1.611s] Invoking command in '/home/eth/ros2_ws/src/rov_practical': PYTHONPATH=/home/eth/ros2_ws/build/rov_practical/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eth/ros2_ws/install/rov_practical/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/rov_practical build --build-base /home/eth/ros2_ws/build/rov_practical/build install --record /home/eth/ros2_ws/build/rov_practical/install.log --single-version-externally-managed install_data
+[1.963s] running egg_info
+[1.983s] writing ../../build/rov_practical/rov_practical.egg-info/PKG-INFO
+[1.983s] writing dependency_links to ../../build/rov_practical/rov_practical.egg-info/dependency_links.txt
+[1.984s] writing entry points to ../../build/rov_practical/rov_practical.egg-info/entry_points.txt
+[1.984s] writing requirements to ../../build/rov_practical/rov_practical.egg-info/requires.txt
+[1.984s] writing top-level names to ../../build/rov_practical/rov_practical.egg-info/top_level.txt
+[2.029s] reading manifest file '../../build/rov_practical/rov_practical.egg-info/SOURCES.txt'
+[2.030s] writing manifest file '../../build/rov_practical/rov_practical.egg-info/SOURCES.txt'
+[2.030s] running build
+[2.030s] running build_py
+[2.031s] copying rov_practical/__init__.py -> /home/eth/ros2_ws/build/rov_practical/build/lib/rov_practical
+[2.031s] copying rov_practical/unw.py -> /home/eth/ros2_ws/build/rov_practical/build/lib/rov_practical
+[2.031s] copying rov_practical/DDDQN.py -> /home/eth/ros2_ws/build/rov_practical/build/lib/rov_practical
+[2.031s] copying rov_practical/gazebo_world.py -> /home/eth/ros2_ws/build/rov_practical/build/lib/rov_practical
+[2.031s] copying rov_practical/models/__init__.py -> /home/eth/ros2_ws/build/rov_practical/build/lib/rov_practical/models
+[2.032s] copying rov_practical/models/mlp_policy.py -> /home/eth/ros2_ws/build/rov_practical/build/lib/rov_practical/models
+[2.032s] copying rov_practical/models/mlp_critic.py -> /home/eth/ros2_ws/build/rov_practical/build/lib/rov_practical/models
+[2.032s] running install
+[2.039s] running install_lib
+[2.062s] copying /home/eth/ros2_ws/build/rov_practical/build/lib/rov_practical/gazebo_world.py -> /home/eth/ros2_ws/install/rov_practical/lib/python3.10/site-packages/rov_practical
+[2.063s] byte-compiling /home/eth/ros2_ws/install/rov_practical/lib/python3.10/site-packages/rov_practical/gazebo_world.py to gazebo_world.cpython-310.pyc
+[2.067s] running install_data
+[2.067s] copying resource/rov_practical -> /home/eth/ros2_ws/install/rov_practical/share/ament_index/resource_index/packages
+[2.067s] copying package.xml -> /home/eth/ros2_ws/install/rov_practical/share/rov_practical
+[2.067s] running install_egg_info
+[2.090s] removing '/home/eth/ros2_ws/install/rov_practical/lib/python3.10/site-packages/rov_practical-0.0.0-py3.10.egg-info' (and everything under it)
+[2.091s] Copying ../../build/rov_practical/rov_practical.egg-info to /home/eth/ros2_ws/install/rov_practical/lib/python3.10/site-packages/rov_practical-0.0.0-py3.10.egg-info
+[2.092s] running install_scripts
+[2.278s] Installing dddqn script to /home/eth/ros2_ws/install/rov_practical/lib/rov_practical
+[2.279s] Installing uw script to /home/eth/ros2_ws/install/rov_practical/lib/rov_practical
+[2.279s] writing list of installed files to '/home/eth/ros2_ws/build/rov_practical/install.log'
+[2.313s] Invoked command in '/home/eth/ros2_ws/src/rov_practical' returned '0': PYTHONPATH=/home/eth/ros2_ws/build/rov_practical/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eth/ros2_ws/install/rov_practical/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/rov_practical build --build-base /home/eth/ros2_ws/build/rov_practical/build install --record /home/eth/ros2_ws/build/rov_practical/install.log --single-version-externally-managed install_data

@@ -1,0 +1,229 @@
+[0.113s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.114s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x78896cb60ca0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x78896cc5d2d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x78896cc5d2d0>>, mixin_verb=('build',))
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.151s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/eth/ros2_ws'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_rov) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_rov) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_rov) by extension 'ignore_ament_install'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_rov) by extensions ['colcon_pkg']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_rov) by extension 'colcon_pkg'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_rov) by extensions ['colcon_meta']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_rov) by extension 'colcon_meta'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_rov) by extensions ['ros']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_rov) by extension 'ros'
+[0.172s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autonomous_rov' with type 'ros.ament_python' and name 'autonomous_rov'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_tools) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_tools) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_tools) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_tools) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_tools) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_tools) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_tools) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_tools) by extension 'ros'
+[0.173s] DEBUG:colcon.colcon_core.package_identification:Package 'src/opencv_tools' with type 'ros.ament_python' and name 'opencv_tools'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_practical) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_practical) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_practical) by extension 'ignore_ament_install'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_practical) by extensions ['colcon_pkg']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_practical) by extension 'colcon_pkg'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_practical) by extensions ['colcon_meta']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_practical) by extension 'colcon_meta'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_practical) by extensions ['ros']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_practical) by extension 'ros'
+[0.175s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rov_practical' with type 'ros.ament_python' and name 'rov_practical'
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.200s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/eth/MIR_Project_2024/glassy_challenge_ws/install
+[0.201s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 39 installed packages in /home/eth/bookros2_ws/install
+[0.202s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/eth/ros2_ws/install
+[0.203s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 277 installed packages in /opt/ros/humble
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'autonomous_rov' build argument 'cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'autonomous_rov' build argument 'cmake_target' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'autonomous_rov' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'autonomous_rov' build argument 'cmake_clean_cache' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'autonomous_rov' build argument 'cmake_clean_first' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'autonomous_rov' build argument 'cmake_force_configure' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'autonomous_rov' build argument 'ament_cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'autonomous_rov' build argument 'catkin_cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'autonomous_rov' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.245s] DEBUG:colcon.colcon_core.verb:Building package 'autonomous_rov' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eth/ros2_ws/build/autonomous_rov', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eth/ros2_ws/install/autonomous_rov', 'merge_install': False, 'path': '/home/eth/ros2_ws/src/autonomous_rov', 'symlink_install': False, 'test_result_base': None}
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'cmake_target' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'cmake_clean_cache' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'cmake_clean_first' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'cmake_force_configure' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'ament_cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'catkin_cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.246s] DEBUG:colcon.colcon_core.verb:Building package 'opencv_tools' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eth/ros2_ws/build/opencv_tools', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eth/ros2_ws/install/opencv_tools', 'merge_install': False, 'path': '/home/eth/ros2_ws/src/opencv_tools', 'symlink_install': False, 'test_result_base': None}
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'rov_practical' build argument 'cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'rov_practical' build argument 'cmake_target' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'rov_practical' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'rov_practical' build argument 'cmake_clean_cache' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'rov_practical' build argument 'cmake_clean_first' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'rov_practical' build argument 'cmake_force_configure' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'rov_practical' build argument 'ament_cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'rov_practical' build argument 'catkin_cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'rov_practical' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.246s] DEBUG:colcon.colcon_core.verb:Building package 'rov_practical' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eth/ros2_ws/build/rov_practical', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eth/ros2_ws/install/rov_practical', 'merge_install': False, 'path': '/home/eth/ros2_ws/src/rov_practical', 'symlink_install': False, 'test_result_base': None}
+[0.247s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.248s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.248s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/eth/ros2_ws/src/autonomous_rov' with build type 'ament_python'
+[0.248s] Level 1:colcon.colcon_core.shell:create_environment_hook('autonomous_rov', 'ament_prefix_path')
+[0.256s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eth/ros2_ws/install/autonomous_rov/share/autonomous_rov/hook/ament_prefix_path.ps1'
+[0.257s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eth/ros2_ws/install/autonomous_rov/share/autonomous_rov/hook/ament_prefix_path.dsv'
+[0.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eth/ros2_ws/install/autonomous_rov/share/autonomous_rov/hook/ament_prefix_path.sh'
+[0.258s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.258s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.270s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/eth/ros2_ws/src/opencv_tools' with build type 'ament_python'
+[0.270s] Level 1:colcon.colcon_core.shell:create_environment_hook('opencv_tools', 'ament_prefix_path')
+[0.271s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eth/ros2_ws/install/opencv_tools/share/opencv_tools/hook/ament_prefix_path.ps1'
+[0.271s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eth/ros2_ws/install/opencv_tools/share/opencv_tools/hook/ament_prefix_path.dsv'
+[0.272s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eth/ros2_ws/install/opencv_tools/share/opencv_tools/hook/ament_prefix_path.sh'
+[0.272s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.272s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.279s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/eth/ros2_ws/src/rov_practical' with build type 'ament_python'
+[0.279s] Level 1:colcon.colcon_core.shell:create_environment_hook('rov_practical', 'ament_prefix_path')
+[0.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eth/ros2_ws/install/rov_practical/share/rov_practical/hook/ament_prefix_path.ps1'
+[0.280s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eth/ros2_ws/install/rov_practical/share/rov_practical/hook/ament_prefix_path.dsv'
+[0.280s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eth/ros2_ws/install/rov_practical/share/rov_practical/hook/ament_prefix_path.sh'
+[0.281s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.281s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.540s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/eth/ros2_ws/src/autonomous_rov'
+[0.541s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.541s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.781s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/eth/ros2_ws/src/opencv_tools'
+[0.781s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.782s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.027s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/eth/ros2_ws/src/rov_practical'
+[1.027s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.027s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.777s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eth/ros2_ws/src/opencv_tools': PYTHONPATH=/home/eth/ros2_ws/build/opencv_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eth/ros2_ws/install/opencv_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/opencv_tools build --build-base /home/eth/ros2_ws/build/opencv_tools/build install --record /home/eth/ros2_ws/build/opencv_tools/install.log --single-version-externally-managed install_data
+[1.784s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eth/ros2_ws/src/autonomous_rov': PYTHONPATH=/home/eth/ros2_ws/build/autonomous_rov/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eth/ros2_ws/install/autonomous_rov/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/autonomous_rov build --build-base /home/eth/ros2_ws/build/autonomous_rov/build install --record /home/eth/ros2_ws/build/autonomous_rov/install.log --single-version-externally-managed install_data
+[1.786s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eth/ros2_ws/src/rov_practical': PYTHONPATH=/home/eth/ros2_ws/build/rov_practical/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eth/ros2_ws/install/rov_practical/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/rov_practical build --build-base /home/eth/ros2_ws/build/rov_practical/build install --record /home/eth/ros2_ws/build/rov_practical/install.log --single-version-externally-managed install_data
+[2.508s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eth/ros2_ws/src/opencv_tools' returned '0': PYTHONPATH=/home/eth/ros2_ws/build/opencv_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eth/ros2_ws/install/opencv_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/opencv_tools build --build-base /home/eth/ros2_ws/build/opencv_tools/build install --record /home/eth/ros2_ws/build/opencv_tools/install.log --single-version-externally-managed install_data
+[2.513s] Level 1:colcon.colcon_core.environment:checking '/home/eth/ros2_ws/install/opencv_tools' for CMake module files
+[2.513s] Level 1:colcon.colcon_core.environment:checking '/home/eth/ros2_ws/install/opencv_tools' for CMake config files
+[2.514s] Level 1:colcon.colcon_core.environment:checking '/home/eth/ros2_ws/install/opencv_tools/lib'
+[2.514s] Level 1:colcon.colcon_core.environment:checking '/home/eth/ros2_ws/install/opencv_tools/bin'
+[2.514s] Level 1:colcon.colcon_core.environment:checking '/home/eth/ros2_ws/install/opencv_tools/lib/pkgconfig/opencv_tools.pc'
+[2.514s] Level 1:colcon.colcon_core.environment:checking '/home/eth/ros2_ws/install/opencv_tools/lib/python3.10/site-packages'
+[2.515s] Level 1:colcon.colcon_core.shell:create_environment_hook('opencv_tools', 'pythonpath')
+[2.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eth/ros2_ws/install/opencv_tools/share/opencv_tools/hook/pythonpath.ps1'
+[2.515s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eth/ros2_ws/install/opencv_tools/share/opencv_tools/hook/pythonpath.dsv'
+[2.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eth/ros2_ws/install/opencv_tools/share/opencv_tools/hook/pythonpath.sh'
+[2.516s] Level 1:colcon.colcon_core.environment:checking '/home/eth/ros2_ws/install/opencv_tools/bin'
+[2.516s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(opencv_tools)
+[2.517s] INFO:colcon.colcon_core.shell:Creating package script '/home/eth/ros2_ws/install/opencv_tools/share/opencv_tools/package.ps1'
+[2.517s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eth/ros2_ws/install/opencv_tools/share/opencv_tools/package.dsv'
+[2.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/eth/ros2_ws/install/opencv_tools/share/opencv_tools/package.sh'
+[2.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/eth/ros2_ws/install/opencv_tools/share/opencv_tools/package.bash'
+[2.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/eth/ros2_ws/install/opencv_tools/share/opencv_tools/package.zsh'
+[2.521s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eth/ros2_ws/install/opencv_tools/share/colcon-core/packages/opencv_tools)
+[2.522s] Level 1:colcon.colcon_core.environment:checking '/home/eth/ros2_ws/install/rov_practical' for CMake module files
+[2.523s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eth/ros2_ws/src/rov_practical' returned '0': PYTHONPATH=/home/eth/ros2_ws/build/rov_practical/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eth/ros2_ws/install/rov_practical/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/rov_practical build --build-base /home/eth/ros2_ws/build/rov_practical/build install --record /home/eth/ros2_ws/build/rov_practical/install.log --single-version-externally-managed install_data
+[2.523s] Level 1:colcon.colcon_core.environment:checking '/home/eth/ros2_ws/install/rov_practical' for CMake config files
+[2.524s] Level 1:colcon.colcon_core.environment:checking '/home/eth/ros2_ws/install/rov_practical/lib'
+[2.524s] Level 1:colcon.colcon_core.environment:checking '/home/eth/ros2_ws/install/rov_practical/bin'
+[2.524s] Level 1:colcon.colcon_core.environment:checking '/home/eth/ros2_ws/install/rov_practical/lib/pkgconfig/rov_practical.pc'
+[2.524s] Level 1:colcon.colcon_core.environment:checking '/home/eth/ros2_ws/install/rov_practical/lib/python3.10/site-packages'
+[2.524s] Level 1:colcon.colcon_core.shell:create_environment_hook('rov_practical', 'pythonpath')
+[2.524s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eth/ros2_ws/install/rov_practical/share/rov_practical/hook/pythonpath.ps1'
+[2.525s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eth/ros2_ws/install/rov_practical/share/rov_practical/hook/pythonpath.dsv'
+[2.525s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eth/ros2_ws/install/rov_practical/share/rov_practical/hook/pythonpath.sh'
+[2.526s] Level 1:colcon.colcon_core.environment:checking '/home/eth/ros2_ws/install/rov_practical/bin'
+[2.526s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rov_practical)
+[2.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/eth/ros2_ws/install/rov_practical/share/rov_practical/package.ps1'
+[2.527s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eth/ros2_ws/install/rov_practical/share/rov_practical/package.dsv'
+[2.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/eth/ros2_ws/install/rov_practical/share/rov_practical/package.sh'
+[2.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/eth/ros2_ws/install/rov_practical/share/rov_practical/package.bash'
+[2.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/eth/ros2_ws/install/rov_practical/share/rov_practical/package.zsh'
+[2.529s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eth/ros2_ws/install/rov_practical/share/colcon-core/packages/rov_practical)
+[2.540s] Level 1:colcon.colcon_core.environment:checking '/home/eth/ros2_ws/install/autonomous_rov' for CMake module files
+[2.541s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eth/ros2_ws/src/autonomous_rov' returned '0': PYTHONPATH=/home/eth/ros2_ws/build/autonomous_rov/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eth/ros2_ws/install/autonomous_rov/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/autonomous_rov build --build-base /home/eth/ros2_ws/build/autonomous_rov/build install --record /home/eth/ros2_ws/build/autonomous_rov/install.log --single-version-externally-managed install_data
+[2.541s] Level 1:colcon.colcon_core.environment:checking '/home/eth/ros2_ws/install/autonomous_rov' for CMake config files
+[2.541s] Level 1:colcon.colcon_core.environment:checking '/home/eth/ros2_ws/install/autonomous_rov/lib'
+[2.541s] Level 1:colcon.colcon_core.environment:checking '/home/eth/ros2_ws/install/autonomous_rov/bin'
+[2.541s] Level 1:colcon.colcon_core.environment:checking '/home/eth/ros2_ws/install/autonomous_rov/lib/pkgconfig/autonomous_rov.pc'
+[2.542s] Level 1:colcon.colcon_core.environment:checking '/home/eth/ros2_ws/install/autonomous_rov/lib/python3.10/site-packages'
+[2.542s] Level 1:colcon.colcon_core.shell:create_environment_hook('autonomous_rov', 'pythonpath')
+[2.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eth/ros2_ws/install/autonomous_rov/share/autonomous_rov/hook/pythonpath.ps1'
+[2.542s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eth/ros2_ws/install/autonomous_rov/share/autonomous_rov/hook/pythonpath.dsv'
+[2.543s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eth/ros2_ws/install/autonomous_rov/share/autonomous_rov/hook/pythonpath.sh'
+[2.543s] Level 1:colcon.colcon_core.environment:checking '/home/eth/ros2_ws/install/autonomous_rov/bin'
+[2.543s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autonomous_rov)
+[2.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/eth/ros2_ws/install/autonomous_rov/share/autonomous_rov/package.ps1'
+[2.544s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eth/ros2_ws/install/autonomous_rov/share/autonomous_rov/package.dsv'
+[2.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/eth/ros2_ws/install/autonomous_rov/share/autonomous_rov/package.sh'
+[2.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/eth/ros2_ws/install/autonomous_rov/share/autonomous_rov/package.bash'
+[2.546s] INFO:colcon.colcon_core.shell:Creating package script '/home/eth/ros2_ws/install/autonomous_rov/share/autonomous_rov/package.zsh'
+[2.546s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eth/ros2_ws/install/autonomous_rov/share/colcon-core/packages/autonomous_rov)
+[2.546s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.546s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.547s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.547s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.554s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.554s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.554s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.567s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.567s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eth/ros2_ws/install/local_setup.ps1'
+[2.568s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/eth/ros2_ws/install/_local_setup_util_ps1.py'
+[2.570s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eth/ros2_ws/install/setup.ps1'
+[2.572s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eth/ros2_ws/install/local_setup.sh'
+[2.573s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/eth/ros2_ws/install/_local_setup_util_sh.py'
+[2.573s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eth/ros2_ws/install/setup.sh'
+[2.576s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eth/ros2_ws/install/local_setup.bash'
+[2.577s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eth/ros2_ws/install/setup.bash'
+[2.579s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eth/ros2_ws/install/local_setup.zsh'
+[2.580s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eth/ros2_ws/install/setup.zsh'

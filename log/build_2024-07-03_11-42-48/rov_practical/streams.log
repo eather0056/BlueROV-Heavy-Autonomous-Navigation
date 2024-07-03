@@ -1,0 +1,33 @@
+[1.588s] Invoking command in '/home/eth/ros2_ws/build/rov_practical': PYTHONPATH=/home/eth/ros2_ws/build/rov_practical/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eth/ros2_ws/install/rov_practical/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/eth/ros2_ws/build/rov_practical/build --no-deps symlink_data --force
+[2.205s] running develop
+[2.205s] /home/eth/.local/lib/python3.10/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[2.206s] !!
+[2.206s] 
+[2.206s]         ********************************************************************************
+[2.206s]         Please avoid running ``setup.py`` and ``easy_install``.
+[2.206s]         Instead, use pypa/build, pypa/installer or other
+[2.206s]         standards-based tools.
+[2.206s] 
+[2.206s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[2.207s]         ********************************************************************************
+[2.207s] 
+[2.207s] !!
+[2.207s]   easy_install.initialize_options(self)
+[2.748s] running egg_info
+[2.796s] writing rov_practical.egg-info/PKG-INFO
+[2.797s] writing dependency_links to rov_practical.egg-info/dependency_links.txt
+[2.797s] writing entry points to rov_practical.egg-info/entry_points.txt
+[2.797s] writing requirements to rov_practical.egg-info/requires.txt
+[2.797s] writing top-level names to rov_practical.egg-info/top_level.txt
+[2.871s] reading manifest file 'rov_practical.egg-info/SOURCES.txt'
+[2.873s] writing manifest file 'rov_practical.egg-info/SOURCES.txt'
+[2.914s] running build_ext
+[2.915s] Creating /home/eth/ros2_ws/install/rov_practical/lib/python3.10/site-packages/rov-practical.egg-link (link to .)
+[2.916s] Installing dddqn script to /home/eth/ros2_ws/install/rov_practical/lib/rov_practical
+[2.916s] Installing uw script to /home/eth/ros2_ws/install/rov_practical/lib/rov_practical
+[2.917s] 
+[2.917s] Installed /home/eth/ros2_ws/build/rov_practical
+[2.917s] running symlink_data
+[2.917s] symbolically linking /home/eth/ros2_ws/build/rov_practical/resource/rov_practical -> /home/eth/ros2_ws/install/rov_practical/share/ament_index/resource_index/packages
+[2.918s] symbolically linking /home/eth/ros2_ws/build/rov_practical/package.xml -> /home/eth/ros2_ws/install/rov_practical/share/rov_practical
+[2.984s] Invoked command in '/home/eth/ros2_ws/build/rov_practical' returned '0': PYTHONPATH=/home/eth/ros2_ws/build/rov_practical/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eth/ros2_ws/install/rov_practical/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/eth/ros2_ws/build/rov_practical/build --no-deps symlink_data --force

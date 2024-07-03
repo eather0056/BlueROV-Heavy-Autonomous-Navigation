@@ -1,0 +1,4 @@
+[console_scripts]
+dddqn = rov_practical.DDDQN:main
+tf = rov_practical.tftext:main
+uw = rov_practical.unw:main
