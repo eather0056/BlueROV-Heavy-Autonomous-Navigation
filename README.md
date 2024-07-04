@@ -57,8 +57,8 @@ Make sure you have the following installed:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/eather0056/Aruco-Code-Position-Estimation.git
-cd Aruco-Code-Position-Estimation/ros2_ws
+git clone https://github.com/eather0056/BlueROV Heavy Autonomous Navigation.git
+cd BlueROV Heavy Autonomous Navigation/ros2_ws
 ```
 
 ### Install kobuki_ros_interfaces
