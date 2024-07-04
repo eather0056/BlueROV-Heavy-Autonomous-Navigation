@@ -36,13 +36,13 @@ ros2_ws/
 ## Packages Overview
 
 ### `autonomous_rov`
-This package is responsible for controlling the ROV and setting up the BlueROV Navigator. Detailed instructions for setup and usage can be found in the [BlueROV Navigation](https://github.com/eather0056/BlueROV-Navigation.git) repository.
+This package is responsible for controlling the ROV and setting up the BlueROV Navigator. Detailed instructions for setup and usage can be found in the [MRI-BlueROV-Heavy-Setup](https://github.com/eather0056/MRI-BlueROV-Heavy-Setup.git) repository.
 
 ### `opencv_tools`
-The `opencv_tools` package contains the localization method of the robot agent and the goal position in a tank environment using Aruco markers. The position of the agent and goal will be presented in the camera frame and can be transferred to the world frame. This information is published as a tf and can be observed in the Rviz2 tool.
+The `opencv_tools` package contains the localization method of the robot agent and the goal position in a tank environment using Aruco markers. The position of the agent and goal will be presented in the camera frame and can be transferred to the world frame. This information is published as a tf and can be observed in the Rviz2 tool. Detailed instructions for setup and usage can be found in the [Aruco Marker Pose Estimation](https://github.com/eather0056/Aruco-Marker-Pose-Estimation.git) repository.
 
 ### `rov_practical`
-The `rov_practical` package implements the DDDQN method for training and testing the agent using different Reinforcement Learning (RL) algorithms. It utilizes `NavSatFix`, `Imu`, `Image`, and `LaserScan` sensor data to interact with the environment.
+The `rov_practical` package implements the DDDQN method for training and testing the agent using different Reinforcement Learning (RL) algorithms. It utilizes `NavSatFix`, `Imu`, `Image`, and `LaserScan` sensor data to interact with the environment. Detailed instructions for setup and implementation can be found in the [BlueROV_Navigation_Control_with_Reinforcement_Learning](https://github.com/eather0056/BlueROV_Navigation_Control_with_Reinforcement_Learning.git) repository.
 
 ## Prerequisites
 
@@ -57,8 +57,8 @@ Make sure you have the following installed:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/eather0056/BlueROV Heavy Autonomous Navigation.git
-cd BlueROV Heavy Autonomous Navigation/ros2_ws
+git clone https://github.com/eather0056/BlueROV-Heavy-Autonomous-Navigation.git
+cd BlueROV-Heavy-Autonomous-Navigation/ros2_ws
 ```
 
 ### Install kobuki_ros_interfaces
