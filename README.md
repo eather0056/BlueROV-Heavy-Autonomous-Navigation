@@ -1,6 +1,6 @@
-# ROS2 Workspace for Autonomous ROV
+# ROS2 Workspace for BlueROV Heavy Autonomous Navigation
 
-This repository contains ROS2 packages for the development and deployment of an autonomous remotely operated vehicle (ROV). The workspace is organized into several packages, including `autonomous_rov`, `opencv_tools`, and `rov_practical`.
+This repository contains ROS2 packages for the development and deployment of an autonomous remotely operated vehicle (ROV), specifically the BlueROV Heavy. The workspace is organized into several packages, including `autonomous_rov`, `opencv_tools`, and `rov_practical`.
 
 ## Repository Structure
 
@@ -33,11 +33,22 @@ ros2_ws/
 └── README.md
 ```
 
+## Packages Overview
+
+### `autonomous_rov`
+This package is responsible for controlling the ROV and setting up the BlueROV Navigator. Detailed instructions for setup and usage can be found in the [BlueROV Navigation](https://github.com/eather0056/BlueROV-Navigation.git) repository.
+
+### `opencv_tools`
+The `opencv_tools` package contains the localization method of the robot agent and the goal position in a tank environment using Aruco markers. The position of the agent and goal will be presented in the camera frame and can be transferred to the world frame. This information is published as a tf and can be observed in the Rviz2 tool.
+
+### `rov_practical`
+The `rov_practical` package implements the DDDQN method for training and testing the agent using different Reinforcement Learning (RL) algorithms. It utilizes `NavSatFix`, `Imu`, `Image`, and `LaserScan` sensor data to interact with the environment.
+
 ## Prerequisites
 
 Make sure you have the following installed:
 
-- [ROS2 Foxy Fitzroy](https://docs.ros.org/en/foxy/Installation.html)
+- [ROS2 Humble Hawksbll](https://docs.ros.org/en/humble/Installation.html), any other ROS2 Release
 - Python 3.8 or later
 - [Colcon](https://colcon.readthedocs.io/en/released/)
 
@@ -46,8 +57,8 @@ Make sure you have the following installed:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your_username/your_repository.git
-cd your_repository/ros2_ws
+git clone https://github.com/eather0056/Aruco-Code-Position-Estimation.git
+cd Aruco-Code-Position-Estimation/ros2_ws
 ```
 
 ### Install Dependencies
@@ -61,7 +72,7 @@ pip install -r requirements.txt
 ### Build the Workspace
 
 ```bash
-source /opt/ros/foxy/setup.bash
+source /opt/ros/humble/setup.bash
 colcon build
 ```
 
@@ -77,13 +88,41 @@ source install/setup.bash
 
 ### Running the Nodes
 
+#### Autonomous ROV
+
 Navigate to the `launch` directory of the `autonomous_rov` package to launch the ROV:
 
 ```bash
-ros2 launch autonomous_rov some_launch_file.launch.py
+ros2 launch autonomous_rov run_all.launch.py
 ```
 
-### Running Tests
+#### Localization with OpenCV Tools
+
+Launch the localization node to detect the agent and goal positions:
+
+```bash
+ros2 run opencv_tools img_publisher
+ros2 run opencv_tools robot_goal_pos_extimation
+```
+
+#### DDDQN Training and Testing
+
+Launch the training or testing scripts for the DDDQN method:
+
+```bash
+ros2 run rov_practical dddqn
+ros2 run rov_practical uw
+```
+
+### Visualizing with Rviz2
+
+You can visualize the tf published by the `opencv_tools` package in Rviz2:
+
+```bash
+rviz2
+```
+
+## Running Tests
 
 To run the tests for any package, use the following command:
 
@@ -107,17 +146,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-If you have any questions, feel free to open an issue or contact me directly at mdeather0056@gmail.com.
-```
-
-### Packaging Instructions
-
-To ensure all necessary packages are installed, include a `requirements.txt` file in the root of your repository:
-
-```plaintext
-# requirements.txt
-numpy
-opencv-python
-ros2
-...
-```
+If you have any questions, feel free to open an issue or contact me directly at your_email@example.com.
