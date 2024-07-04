@@ -61,12 +61,21 @@ git clone https://github.com/eather0056/Aruco-Code-Position-Estimation.git
 cd Aruco-Code-Position-Estimation/ros2_ws
 ```
 
+### Install kobuki_ros_interfaces
+```bash
+cd src
+git clone https://github.com/kobuki-base/kobuki_ros_interfaces.git
+```
+
 ### Install Dependencies
 
 Use the provided `requirements.txt` file to install necessary Python packages:
 
 ```bash
+cd ~/ros2_ws
 pip install -r requirements.txt
+rosdep update
+rosdep install --from-paths src --ignore-src -r -y
 ```
 
 ### Build the Workspace
@@ -87,6 +96,12 @@ source install/setup.bash
 ```
 
 ### Running the Nodes
+
+### Verify the kobuki_ros_interfaces Installation
+
+```bash
+ros2 interface show kobuki_ros_interfaces/msg/BumperEvent
+```
 
 #### Autonomous ROV
 
@@ -146,4 +161,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-If you have any questions, feel free to open an issue or contact me directly at your_email@example.com.
+If you have any questions, feel free to open an issue or contact me directly at mdeather0056@gmail.com.
