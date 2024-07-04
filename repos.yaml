@@ -1,5 +1,0 @@
-repositories:
-  kobuki_msgs:
-    type: git
-    url: https://github.com/kobuki-base/kobuki_msgs.git
-    version: ros2
