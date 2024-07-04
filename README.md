@@ -78,6 +78,12 @@ rosdep update
 rosdep install --from-paths src --ignore-src -r -y
 ```
 
+### Installing `geometry_msgs`
+```bash
+sudo apt-get update
+sudo apt-get install ros-humble-geometry-msgs
+```
+
 ### Build the Workspace
 
 ```bash
@@ -119,6 +125,11 @@ Launch the localization node to detect the agent and goal positions:
 ros2 run opencv_tools img_publisher
 ros2 run opencv_tools robot_goal_pos_extimation
 ```
+#### Start the Visdom Server
+```bash
+python -m visdom.server
+```
+This will start the server on 'localhost:8097' by default.
 
 #### DDDQN Training and Testing
 
